@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2d3748;
+}
+
+.chat-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+  font-size: 16px;
+}
+
+.chat-form button {
+  background-color: #3182ce;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.chat-form button:hover {
+  background-color: #2b6cb0;
+}
+
+.chat-form button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.response-box {
+  background: #edf2f7;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  color: #2d3748;
+}
